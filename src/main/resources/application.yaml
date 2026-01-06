@@ -4,17 +4,16 @@ spring:
   data:
     mongodb:
       auto-index-creation: true
-      uri: ${DB_URI}
-      user: ${MONGO_USER}
-      password: ${MONGO_PASS}
-      
+      uri: mongodb://mongo:OHJIYZLCVFMgomNbSRWWpHnTVOMODnvF@mongodb.railway.internal:27017
+      user: mongo
+      password: OHJIYZLCVFMgomNbSRWWpHnTVOMODnvF
   main:
     allow-circular-references: true
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ${EMAIL}
-    password: ${PASS}
+    username: dholakiya225@gmail.com
+    password: pwsa fabq cdnr uvrt
     properties:
       mail:
         smtp:
@@ -24,15 +23,15 @@ spring:
             required: true
 
 cloudinary:
-  cloud_name: ${CLOUD_NAME}
-  api_key : ${CLOUD_API}
-  api_secret: ${CLOUD_SECRET}
+  cloud_name: dnktm0tvo
+  api_key : 493347339972695
+  api_secret: z3b4g5gECSrcXy9kFjmdhCUA-NE
 
 twilio:
-  account_sid: ${TWILIO_ACCOUNT_SID}
-  auth_token: ${AUTH_TOKEN}
-  phone_number: ${PHONE_NO}
+  account_sid: AC55a40e36ecdca877cb42242931bc6a05
+  auth_token: 215a724dd3eb729134d65a5d9aefb9f9
+  phone_number: +15672922390
 
 jwt:
-  secret: ${TOKEN}
-  expiration: ${EXPIRY}
+  secret: 4V8p+7Lz9XmQzR7vTqY2nB5xK8jW3mP1a9sV2dF5gH8=
+  expiration: 604800000

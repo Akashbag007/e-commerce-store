@@ -5,6 +5,9 @@ spring:
     mongodb:
       auto-index-creation: true
       uri: ${DB_URI}
+      user: ${MONGO_USER}
+      password: ${MONGO_PASS}
+      
   main:
     allow-circular-references: true
   mail:
